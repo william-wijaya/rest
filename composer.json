@@ -1,0 +1,19 @@
+{
+    "name": "plum/rest",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/william-wijaya/http"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "plum/http": "@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    },
+    "autoload": {
+        "psr-4": { "Plum\\Rest\\": "" }
+    }
+}
